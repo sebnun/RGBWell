@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9ED17AB41CA2EB0700FAF9B4 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED17AB31CA2EB0700FAF9B4 /* MainWindowController.swift */; };
+		9ED17AB61CA2EB8100FAF9B4 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ED17AB51CA2EB8100FAF9B4 /* MainWindowController.xib */; };
 		9EFA00311CA2E7D0009D6E42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFA00301CA2E7D0009D6E42 /* AppDelegate.swift */; };
 		9EFA00331CA2E7D0009D6E42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EFA00321CA2E7D0009D6E42 /* Assets.xcassets */; };
 		9EFA00361CA2E7D0009D6E42 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EFA00341CA2E7D0009D6E42 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9ED17AB31CA2EB0700FAF9B4 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		9ED17AB51CA2EB8100FAF9B4 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 		9EFA002D1CA2E7D0009D6E42 /* RGBWell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RGBWell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EFA00301CA2E7D0009D6E42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EFA00321CA2E7D0009D6E42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 				9EFA00321CA2E7D0009D6E42 /* Assets.xcassets */,
 				9EFA00341CA2E7D0009D6E42 /* MainMenu.xib */,
 				9EFA00371CA2E7D0009D6E42 /* Info.plist */,
+				9ED17AB31CA2EB0700FAF9B4 /* MainWindowController.swift */,
+				9ED17AB51CA2EB8100FAF9B4 /* MainWindowController.xib */,
 			);
 			path = RGBWell;
 			sourceTree = "<group>";
@@ -117,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EFA00331CA2E7D0009D6E42 /* Assets.xcassets in Resources */,
+				9ED17AB61CA2EB8100FAF9B4 /* MainWindowController.xib in Resources */,
 				9EFA00361CA2E7D0009D6E42 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ED17AB41CA2EB0700FAF9B4 /* MainWindowController.swift in Sources */,
 				9EFA00311CA2E7D0009D6E42 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +279,7 @@
 				9EFA003C1CA2E7D0009D6E42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
